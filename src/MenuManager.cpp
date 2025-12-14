@@ -371,6 +371,7 @@ void MenuManager_::selectButton()
             {
                 UpdateManager.updateFirmware();
             }
+            currentState = MainMenu;
             break;
         }
         break;
