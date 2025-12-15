@@ -3,7 +3,7 @@ permissions:
   contents: write
 on:
   push:
-    branches: [ main ]
+    branches: [ dev ]
     paths:
       - 'src/**'
       - 'lib/**'
