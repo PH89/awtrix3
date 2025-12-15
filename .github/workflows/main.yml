@@ -4,6 +4,9 @@ permissions:
 on:
   push:
     branches: [ dev ]
+    paths:
+      - 'src/**'
+      - 'lib/**'
 
 jobs:
   compile_firmware:

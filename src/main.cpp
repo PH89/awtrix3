@@ -70,7 +70,7 @@ void setup()
   ServerManager.loadSettings();
   DisplayManager.setup();
   DisplayManager.HSVtext(4, 6, VERSION, true, 0);
-  delay(750);
+  delay(1000);
   xTaskCreatePinnedToCore(BootAnimation, "Task", 10000, NULL, 1, &taskHandle, 0);
   ServerManager.setup();
   if (ServerManager.isConnected)
